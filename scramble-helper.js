@@ -29,6 +29,21 @@ function swapLetter(randomizer, words) {
 }
 // Create a function that takes an array of words and returns a new array of the
  // words with each word reversed.
+const candy = new Map()
+candy.set('purple', 'grape')
+candy.set('yellow', 'banana')
+candy.set('red', 'strawberry')
+candy.set('white', 'coconut')
+candy.set('green', 'apple')
+
+
+
+function coolCandy() {
+  for (let candy_entry of candy.entries()) {
+  console.log(`The ${candy_entry[1]} flavor is colored ${candy_entry[0]}`);
+}
+  //return candy_entry;
+}
 
 // Create a function that returns a random word from an array
 
