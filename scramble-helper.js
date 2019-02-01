@@ -1,4 +1,10 @@
-// Create a function that reverses a word
+
+// Declare a variable greeting and assign to it a phrase.
+// Split a string into an array of characters (see the .split() method)
+// Take an array of letters and merge them into a string (see the .join() method)
+// Select a random item from an array (Read up on Math.random() to figure out how to choose a random item from your array. JavaScript doesn’t have Python’s random.choice() function at the ready, so we get to do it ourselves!)
+// Select two random items from an array and swap them
+
 const greeting = 'Mississippi River';
 let words = greeting.split('');
 words = words.join('')
@@ -27,8 +33,12 @@ function swapLetter(randomizer, words) {
   }
   return new_words.join('');
 }
-// Create a function that takes an array of words and returns a new array of the
- // words with each word reversed.
+
+// Create an empty map and assign it to the variable candy
+// Set five colors as keys in the map and flavors as the values, for instance “purple” could be “grape”.
+// Iterate over the candy flavors to print “The x flavor is colored y.” for each
+// Get the value of a color from the map, and see what happens when you try getting a value of a color that doesn’t exist.
+
 const candy = new Map()
 candy.set('purple', 'grape')
 candy.set('yellow', 'banana')
@@ -44,6 +54,11 @@ function coolCandy() {
 }
   //return candy_entry;
 }
+
+// Create a function that reverses a word
+
+// Create a function that takes an array of words and returns a new array of the
+ // words with each word reversed.
 
 // Create a function that returns a random word from an array
 
